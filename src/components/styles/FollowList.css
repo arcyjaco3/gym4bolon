@@ -1,0 +1,52 @@
+.follow-list{
+    min-width: 100%;
+    background-color: #1D2333;
+    padding:2em;
+    border-radius:6px;
+    & h2{
+        font-size:1.5em;
+        font-weight:600;
+        color:white;
+        text-align: left;
+    }
+    & .avatar-name{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:1em;
+        
+        & .name{
+            font-family: Montserrat;
+font-size: 1em;
+font-weight: 600;
+line-height: 2em;
+letter-spacing: 0em;
+text-align: left;
+color:#4F6AB2
+
+        }
+    }
+    & .add-friend-button{
+        font-family: Montserrat;
+        font-size: 0.8em;
+        font-weight: 600;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color:#FA6342;
+
+    }
+}
+.follow-list .single-row{
+    display:flex;
+    flex-direction: row;
+    gap:1em;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.follow-list img{
+    width:40px;
+    border-radius:50%;
+}

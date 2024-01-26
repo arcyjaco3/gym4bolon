@@ -1,0 +1,25 @@
+.comments-list{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+.comments-list .single-comment{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:0.5em;
+    text-align: left;
+
+    & p:nth-child(1){
+        color:#FA6342;
+        font-size:14px;
+        font-family:'Montserrat';
+        margin:0;
+    }
+
+    & p:nth-child(2){
+        color:#B5C2E7;
+        font-size:12px;
+        margin:0;
+    }
+}
